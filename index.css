@@ -176,6 +176,9 @@ html {
 .container i{
     font-size: 25px;
 }
+    .instagrammainsection{
+    display: none;
+}
 }
 /*------------------------------------------------------------*/
 
