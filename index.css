@@ -139,6 +139,11 @@ html {
         padding: 0;
           overflow-x: hidden  !important;
       }
+      html, body {
+        overflow-x: hidden; /* Ensures no horizontal scroll */
+        width: 100%;        /* Makes sure the body is not wider than the viewport */
+        max-width: 100vw;   /* Prevents the body from exceeding the viewport width */
+      }
 
   .navbar h1{
    font-size: 25px;
